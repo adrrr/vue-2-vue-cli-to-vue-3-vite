@@ -26,7 +26,7 @@ npm i eslint@8 eslint-plugin-vue@8
 npm install -D vitest
 npm install -D @vitejs/plugin-vue jsdom @vue/test-utils
 ```
-update package.json scripts
-create vitest.config.js
-update example.spec.ts
-update shims-vue.d.ts
+- update package.json scripts
+- create vitest.config.js
+- update example.spec.ts
+- update shims-vue.d.ts
