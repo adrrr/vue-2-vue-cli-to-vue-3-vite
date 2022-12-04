@@ -19,3 +19,14 @@ npm i eslint@8 eslint-plugin-vue@8
 - install vue3
 - replace "export default Vue.extend({" with "export default {"
 - remove vue.config.js
+
+### switch from jest to vitest
+- run these commands
+```
+npm install -D vitest
+npm install -D @vitejs/plugin-vue jsdom @vue/test-utils
+```
+update package.json scripts
+create vitest.config.js
+update example.spec.ts
+update shims-vue.d.ts
