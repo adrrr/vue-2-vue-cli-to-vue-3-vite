@@ -1,4 +1,4 @@
-### switch from vue cli to vite
+### switch from vue cli to vite (commit 2)
 
 - run these commands
 ```
@@ -13,14 +13,16 @@ npm i eslint@8 eslint-plugin-vue@8
 - move index.html file and update it
 - update package.json scripts
 
-### switch from vue 2.7 to vue 3
+### use vue 3 setup in vue 2.7 (commit 3)
+
+### switch from vue 2.7 to vue 3 (commit 5)
 - remove all jest related libraries (they will be re added later)
 - replace @vitejs/plugin-vue2 by @vitejs/plugin-vue
 - install vue3
 - replace "export default Vue.extend({" with "export default {"
 - remove vue.config.js
 
-### switch from jest to vitest
+### switch from jest to vitest (commit 6)
 - run these commands
 ```
 npm install -D vitest
